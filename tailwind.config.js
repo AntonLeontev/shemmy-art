@@ -6,7 +6,15 @@ export default {
         "./resources/**/*.vue",
     ],
     theme: {
-        extend: {},
+        fontFamily: {
+            display: ["Oswald"],
+            body: ["Oswald", "sans-serif"],
+        },
+        extend: {
+            backgroundImage: {
+                home: "url('/resources/images/bg-home.webp')",
+            },
+        },
     },
     plugins: [],
 };
